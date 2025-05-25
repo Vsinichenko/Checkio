@@ -13,9 +13,15 @@
 # 
 # END_DESC
 
+import re
+
 def sum_numbers(text: str) -> int:
-    # your code here
-    return 0
+    the_sum=0
+    numbers = re.findall(r"\b\d+\b", text)
+    if numbers:
+        numbers = [int(n) for n in numbers]
+    the_sum+=sum(numbers)
+    return the_sum
 
 
 print("Example:")
@@ -27,7 +33,7 @@ assert sum_numbers("who is 1st here") == 0
 assert sum_numbers("my numbers is 2") == 2
 assert (
     sum_numbers(
-        "This picture is an oil on canvas painting by Danish artist Anna Petersen between 1845 and 1910 year"
+        "This picture is an oil on canvas painting by 1st Danish artist Anna Petersen between 1845 and 1910 year"
     )
     == 3755
 )

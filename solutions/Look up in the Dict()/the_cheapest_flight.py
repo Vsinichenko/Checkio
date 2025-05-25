@@ -74,14 +74,15 @@ def cheapest_flight(costs: list, a: str, b: str) -> int:
             for end_route in simple_routes:
                 # AFHB and BD combine into AFHBD
                 if begin_route[-1]==end_route[0] and is_meaningful_route(begin_route, end_route):
-                    routes.add(begin_route[:1]+end_route)
+                    new_route=begin_route[:-1]+end_route
+                    routes.add(new_route)
        
     costs_dict = dict.fromkeys(routes, None) 
     # calculate the costt of each trip 
     for route in costs_dict.keys(): # TODO fix price calculation here
         cost=0
         # key example ABC
-        for i, _ in enumerate(route[1:]): # start from second city D
+        for i in range(len(route)-1): 
             price = simple_routes_dict[route[i]][route[i+1]]
             cost+=price
         costs_dict[route]=cost
@@ -102,15 +103,6 @@ def cheapest_flight(costs: list, a: str, b: str) -> int:
     return min_cost   
 
 print("Example:")
-print(cheapest_flight([["A", "C", 100], ["A", "B", 20], ["B", "C", 50]], "A", "C"))
-
-# These "asserts" are used for self-checking
-assert (
-    cheapest_flight([["A", "C", 100], ["A", "B", 20], ["B", "C", 50]], "A", "C") == 70
-)
-assert (
-    cheapest_flight([["A", "C", 100], ["A", "B", 20], ["B", "C", 50]], "C", "A") == 70
-)
 assert (
     cheapest_flight(
         [
@@ -125,6 +117,17 @@ assert (
     )
     == 60
 )
+
+print(cheapest_flight([["A", "C", 100], ["A", "B", 20], ["B", "C", 50]], "A", "C"))
+
+# These "asserts" are used for self-checking
+assert (
+    cheapest_flight([["A", "C", 100], ["A", "B", 20], ["B", "C", 50]], "A", "C") == 70
+)
+assert (
+    cheapest_flight([["A", "C", 100], ["A", "B", 20], ["B", "C", 50]], "C", "A") == 70
+)
+
 assert (
     cheapest_flight([["A", "C", 100], ["A", "B", 20], ["D", "F", 900]], "A", "F") == 0
 )
