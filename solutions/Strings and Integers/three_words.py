@@ -16,9 +16,17 @@
 # 
 # END_DESC
 
+import re
+
 def checkio(words: str) -> bool:
-    # add your code here
+    words_ls = words.split(" ")
+    is_word_list = [re.search(r"\d", word) is None for word in words_ls] # should be a boolean list
+    for i in range(len(is_word_list)-2):
+        if is_word_list[i]==is_word_list[i+1]==is_word_list[i+2]==True:
+            return True
     return False
+    
+    
 
 
 print("Example:")
@@ -28,7 +36,7 @@ print(checkio("Hello World hello"))
 assert checkio("Hello World hello") == True
 assert checkio("He is 123 man") == False
 assert checkio("1 2 3 4") == False
-assert checkio("bla bla bla bla") == True
+assert checkio("1 bla bla bla") == True
 assert checkio("Hi") == False
 
 print("The mission is done! Click 'Check Solution' to earn rewards!")
