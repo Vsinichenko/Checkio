@@ -17,25 +17,28 @@
 # 
 # END_DESC
 
+def get_sub_pyramid(ls: list[list[int]], mode: str) -> list[list[int]]:
+    new_ls = []
+    for el in ls[1:]:
+        if mode=="r":
+            new_ls.append(el[1:])
+        elif mode=="l":
+            new_ls.append(el[:-1])
+    return new_ls
+
+
 def count_gold(pyramid: list[list[int]]) -> int:
-    # replace this for solution
-    return 0
+    if len(pyramid)==1:
+        return pyramid[0][0]
+    else:
+        l_pyramid = get_sub_pyramid(pyramid, mode="l")
+        r_pyramid = get_sub_pyramid(pyramid, mode="r")
+        return max(count_gold(l_pyramid), count_gold(r_pyramid))+pyramid[0][0]
+
 
 
 print("Example:")
-print(
-    count_gold(
-        [
-            [1],
-            [2, 3],
-            [3, 3, 1],
-            [3, 1, 5, 4],
-            [3, 1, 3, 1, 3],
-            [2, 2, 2, 2, 2, 2],
-            [5, 6, 4, 5, 6, 4, 3],
-        ]
-    )
-)
+print(count_gold([[1], [2,3], [8,9,10], [11,12,13,14]]))
 
 # These "asserts" are used for self-checking
 assert (
