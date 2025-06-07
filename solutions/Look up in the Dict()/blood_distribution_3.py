@@ -32,7 +32,6 @@
 # 
 # END_DESC
 
-#!/home/valentyna-sinichenko/miniconda3/bin/checkio --domain=py run blood-distribution-3
 
 
 
@@ -56,17 +55,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-# TODO
 
 from collections import defaultdict
 

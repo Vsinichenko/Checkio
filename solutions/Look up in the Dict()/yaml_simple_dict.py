@@ -48,6 +48,7 @@
 # 
 # END_DESC
 
+
 def yaml(a: str) -> dict:
     elements = a.split("\n")
     yaml_parsed = {}
