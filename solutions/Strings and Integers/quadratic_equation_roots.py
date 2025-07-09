@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run quadratic-equation-roots
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run quadratic-equation-roots
 
 # A quadratic equation is represented asax2+ bx + c = 0. The general formula to find its roots (x-values for which y = 0) is:
 # 

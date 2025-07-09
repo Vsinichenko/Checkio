@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run non-unique-elements
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run non-unique-elements
 
 # If you have 50 different plug types, appliances wouldn't be available and would be very        expensive. But once an electric outlet becomes standardized, many companies can design        appliances, and competition ensues, creating variety and better prices for consumers.
 # -- Bill Gates

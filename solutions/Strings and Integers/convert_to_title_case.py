@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run convert-to-title-case
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run convert-to-title-case
 
 # Your function should take a string as an input and convert all the first letters of the words in the string to uppercase, making the string a title case (other letters must be in lowercase).
 # 

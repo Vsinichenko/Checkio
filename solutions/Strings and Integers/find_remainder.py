@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run find-remainder
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run find-remainder
 
 # Determine the remainder from division of two positive integers.
 # 

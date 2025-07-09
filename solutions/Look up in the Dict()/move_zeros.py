@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run move-zeros
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run move-zeros
 
 # You are given a list of integers.    Move all zeros in the list to the end of it.    The order of non-zero elements should not change.
 # 

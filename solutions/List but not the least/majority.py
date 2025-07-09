@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run majority
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run majority
 
 # 
 # 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run how-deep
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run how-deep
 
 # You are given a tuple that consists of integers and other tuples, which in turn can also contain tuples.
 # 

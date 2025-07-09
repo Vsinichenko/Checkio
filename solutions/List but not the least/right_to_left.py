@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run right-to-left
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run right-to-left
 
 # "For centuries, left-handers have suffered unfair discrimination in a world designed for right-handers."
 # Santrock, John W. (2008). Motor, Sensory, and Perceptual Development.

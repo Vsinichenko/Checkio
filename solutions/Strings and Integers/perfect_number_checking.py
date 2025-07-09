@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run perfect-number-checking
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run perfect-number-checking
 
 # A perfect number is a positive integer that is equal to the sum of its proper divisors, excluding itself. For example, 28 is a perfect number because its divisors are 1, 2, 4, 7, and 14, and their sum is 28.
 # 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run count-vowels
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run count-vowels
 
 # This function should take a string as an input and return the count of vowels (a, e, i, o, u) in the string. The function should be case-insensitive.
 # 

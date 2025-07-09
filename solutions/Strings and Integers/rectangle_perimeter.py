@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run rectangle-perimeter
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run rectangle-perimeter
 
 # This function should take two positive numbers (length and width) as inputs and return the perimeter of a rectangle.
 # 

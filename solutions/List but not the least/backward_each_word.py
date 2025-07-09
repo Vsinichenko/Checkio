@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run backward-each-word
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run backward-each-word
 
 # In a given string you should reverse every word, but the words should stay in their places.
 # 

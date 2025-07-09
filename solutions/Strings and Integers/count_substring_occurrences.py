@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run count-substring-occurrences
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run count-substring-occurrences
 
 # This function should take a main string and a substring as inputs and return the number of occurrences of the substring within the main string. It should not be case-sensitive and may overlap.
 # 

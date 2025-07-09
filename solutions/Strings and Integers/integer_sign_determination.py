@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run integer-sign-determination
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run integer-sign-determination
 
 # Identify whether a given integer is positive, negative, or zero and return a respective string:"positive","negative"or"zero".
 # 

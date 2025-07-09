@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run cipher-dict-decryption
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run cipher-dict-decryption
 
 # In this mission, you need to convert a nested cipher dictionary to a plain text to according to the following steps. This conversion is opposite to one inCipher Dictmission.
 # 

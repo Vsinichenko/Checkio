@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run absolute-sorting
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run absolute-sorting
 
 # Let's try some sorting. Here is sequence with the specific rules.
 # 

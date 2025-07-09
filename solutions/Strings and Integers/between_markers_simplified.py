@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run between-markers-simplified
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run between-markers-simplified
 
 # You are given a string and two markers (the initial one and final). You have to find a substring enclosed between these two markers. But there are a few important conditions.
 # 

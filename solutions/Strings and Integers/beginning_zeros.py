@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run beginning-zeros
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run beginning-zeros
 
 # You have a string that consist only of digits. You need to find how many zero digits ("0") are at the beginning of the given string.
 # 

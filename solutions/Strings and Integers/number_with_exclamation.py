@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run number-with-exclamation
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run number-with-exclamation
 
 # This function should take a non-negative integer as an input and return the factorial of that number. The factorial of a non-negative integernis the product of all positive integers less than or equal ton.
 # 

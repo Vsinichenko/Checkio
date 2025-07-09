@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run goes-after
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run goes-after
 
 # In a given word you need to check if one symbol goes only right after another.
 # 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run number-length
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run number-length
 
 # You have a non-negative integer. Try to find out how many digits it has.
 # 

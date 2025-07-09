@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run armstrong-number-checking
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run armstrong-number-checking
 
 # In number theory, anArmstrongnumber(afterMichael F. Armstrong) ornarcissistic numberin a given number base (10 for this mission) is a number that is the sum of its own digits each raised to the power of the number of digits. For example, 153 is anArmstrongnumber because13+ 53+ 33== 153.
 # 

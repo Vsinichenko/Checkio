@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run follow-instructions
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run follow-instructions
 
 # You’ve received a letter from a friend whom you haven't seen or heard from for a while. In this letter he gives you instructions on how to find a hidden treasure!
 # 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run reverse-every-ascending
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run reverse-every-ascending
 
 # Create and return a newIterablethat contains the same elements as the givenlistitems, but with the reversed order of the elements inside every maximal strictly ascending subsequence.    This function should not modify the contents of the original list.
 # 

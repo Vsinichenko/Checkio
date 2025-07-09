@@ -17,9 +17,19 @@
 # 
 # END_DESC
 
+import re 
+
 def translation(text: str) -> str:
-    # your code here
-    return ""
+    consonants = "bcdfghjklmnpqrstvwxz"
+    vowels = "aeiouy"
+    for c in consonants:
+        text = re.sub(f"{c}[aeiouy]", f"{c}", text)
+
+    for v in vowels:
+        text = re.sub(f"{v}{{3}}", f"{v}", text)
+
+    
+    return text
 
 
 print("Example:")

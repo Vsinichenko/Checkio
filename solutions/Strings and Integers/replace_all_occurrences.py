@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run replace-all-occurrences
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run replace-all-occurrences
 
 # This function should take three strings as input: the main text, the target substring, and the replacement substring. It should return a new string where all occurrences of the target substring within the main text are replaced with the replacement substring.
 # 

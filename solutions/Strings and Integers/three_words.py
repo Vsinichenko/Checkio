@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run three-words
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run three-words
 
 # Let's teach the Robots to distinguish words and numbers.
 # 

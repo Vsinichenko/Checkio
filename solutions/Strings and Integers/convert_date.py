@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run convert-date
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run convert-date
 
 # This function should take a date string in the formatdd/mm/yyyyand convert it to the formatyyyy-mm-dd. If the input is not in the correct format, the function should return an error message"Error: Invalid date.".
 # 

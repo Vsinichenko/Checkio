@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run most-wanted-letter
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run most-wanted-letter
 
 # You are given a text, which contains different English letters and punctuation symbols.    You should find the most frequent letter in the text. The letter returned must be in lower case.
 # While checking for the most wanted letter, casing does not matter, so for the purpose of your search,    "A" == "a".    Make sure you do not count punctuation symbols, digits and whitespaces, only letters.

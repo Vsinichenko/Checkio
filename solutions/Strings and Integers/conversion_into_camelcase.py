@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run conversion-into-camelcase
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run conversion-into-camelcase
 
 # Your mission is to convert the name of a function from the Python format (for example "my_function_name") intoCamelCase("MyFunctionName") where the first char of every word is in uppercase and all words are concatenated without any intervening characters.
 # 

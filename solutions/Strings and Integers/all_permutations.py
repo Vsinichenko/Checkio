@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run all-permutations
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run all-permutations
 
 # Given a string, return all possiblepermutationsof its characters, sorted alphabetically.
 # 

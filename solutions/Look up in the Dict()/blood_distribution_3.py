@@ -1,4 +1,4 @@
-#!/home/valentyna-sinichenko/miniconda3/bin/checkio --domain=py run blood-distribution-3
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run blood-distribution-3
 
 # Your mission is to distribute available blood of different types to patients requiring transfusions, considering each blood type's compatibility restrictions.  The blood supply is not always sufficient to meet all demands. You'll be provided with the quantities of each blood type and the needs of each patient type.  Your goal is to optimally allocate the available blood, respecting compatibility rules.  Keep in mind that there could be multiple optimal solutions, those that utilize the maximum possible amount of the available blood supply.
 # 
@@ -32,11 +32,94 @@
 # 
 # END_DESC
 
+#!/home/valentyna-sinichenko/miniconda3/bin/checkio --domain=py run blood-distribution-3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# TODO
+
+from collections import defaultdict
+
 def distribute_blood(
     blood_avail: dict[str, int], blood_needs: dict[str, int]
 ) -> dict[str, dict[str, int]]:
-    # you code here
-    return {}
+    comp_give = {"A":["A", "AB"],
+                    "B": ["B", "AB"],
+                     "AB":["AB"],
+                     "O":["A", "B", "AB", "0"]} # from donor to recipient
+    comp_receive = {
+     "O": ["O"],
+        "AB":["A", "B", "AB", "0"],
+        "B":["0", "B"],
+        "A":["A", "O"]
+    }
+    
+    blood_types = ['A', 'B', 'AB', 'O']
+    given = defaultdict(dict)
+    for type in blood_types:
+        given[type]={"A": 0, "B": 0, "AB": 0, "O": 0}
+    
+    
+    given = {"A": {"A": 0, "B": 0, "AB": 0, "O": 0},
+        "B": {"A": 0, "B": 0, "AB": 0, "O": 0},
+        "AB": {"A": 0, "B": 0, "AB": 0, "O": 0},
+        "O": {"A": 0, "B": 0, "AB": 0, "O": 0}} # from sender to receiver
+    
+    # fist, only obvious cases
+    # AB can give only to AB
+    given = blood_needs['AB']-blood_avail['AB']
+    if given <None:
+        given = blood_avail['AB']
+    given['AB']['AB'] = given
+    blood_avail['AB']-= given
+    blood_needs['AB']-=given
+
+    # O can receive only fom O
+    given = blood_needs['O']-blood_avail['O']
+    if given <0:
+        given = blood_avail['O']
+    given['O']['O'] = given
+    blood_avail['O']-= given
+    blood_needs['O']-=given
+
+    for key1 in given:
+        for key2 in given[key1]:
+            if given[key1][key2]==None:
+                given[key1][key2] = 0
+    return given
+
+
+
 
 
 if __name__ == "__main__":

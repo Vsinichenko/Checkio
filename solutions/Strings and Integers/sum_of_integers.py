@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run sum-of-integers
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run sum-of-integers
 
 # Calculate sum of integers from 1 to givenN(including).
 # 

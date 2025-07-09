@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run longest-common-prefix
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run longest-common-prefix
 
 # This function should take an list of strings and determine the longest common prefix among all the strings. If there is no common prefix, it should return an empty string.
 # 

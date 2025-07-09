@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run is-even
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run is-even
 
 # Check if the given number is even or not. Your function should returnTrueif the number is even, andFalseif the number is odd.
 # 

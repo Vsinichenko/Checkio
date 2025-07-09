@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run reverse-integer
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run reverse-integer
 
 # Reverse the digits of a given integer. For instance,1234should become4321. For negative integers, the sign should remain in the front; e.g.,-123becomes-321.
 # 

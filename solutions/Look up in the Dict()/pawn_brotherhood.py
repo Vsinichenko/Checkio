@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run pawn-brotherhood
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run pawn-brotherhood
 
 # Almost everyone in the world knows about the ancient gameChessand has at least a basic understanding of its rules.    It has various units with a wide range of movement patterns allowing    for a huge number of possible different game positions (for exampleNumber of possible chess games at the end of the n-th plies.)    For this mission, we will examine the movements and behavior of chess pawns.
 # 

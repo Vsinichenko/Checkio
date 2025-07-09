@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run count-digits
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run count-digits
 
 # You need to count the number of digits in a given string.
 # 

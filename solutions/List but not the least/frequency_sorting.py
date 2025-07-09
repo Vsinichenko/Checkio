@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run frequency-sorting
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run frequency-sorting
 
 # Sort the given sequence so that its elements should be grouped and those groups end up in the decreasing frequency order, that is, the number of times element appears in the sequence. If two elements have the same frequency, their groups should end up according to the natural order of elements. For example:
 # 

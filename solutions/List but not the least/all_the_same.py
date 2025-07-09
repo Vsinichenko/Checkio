@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run all-the-same
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run all-the-same
 
 # In this mission you should check if all elements in the given sequence are equal.
 # 

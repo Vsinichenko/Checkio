@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run yaml-simple-dict
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run yaml-simple-dict
 
 # Have you ever heard of such markup language asYAML?  It’s a friendly data serialization format. In fact it’s so friendly that both people and programs can read it quite well. You can play around with the standard by followingthis link.
 # 
@@ -49,8 +49,21 @@
 # END_DESC
 
 def yaml(a: str) -> dict:
-    # your code here
-    return {}
+    elements = a.split("\n")
+    yaml_parsed = {}
+    for el in elements:
+        if ":" in el:
+            k, v = el.split(":")
+            k = k.strip()
+            v=v.strip()
+            try:
+                v = int(v)
+            except ValueError:
+                pass
+            yaml_parsed[k]=v
+
+
+    return yaml_parsed
 
 
 print("Example:")

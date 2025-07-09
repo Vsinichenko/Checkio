@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run wrong-family
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run wrong-family
 
 # Michael always knew that there was something wrong with his family. Many strangers were introduced to him as part of it.
 # 

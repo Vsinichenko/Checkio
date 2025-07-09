@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run popular-words
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run popular-words
 
 # In this mission your task is to determine the popularity of certain words in the text.
 # 

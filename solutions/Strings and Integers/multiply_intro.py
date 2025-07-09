@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run multiply-intro
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run multiply-intro
 
 # This is an intro mission, the purpose of which is to explain how to solve missions on CheckiO. If you want to know how to get the maximum out of using CheckiO, check out our blog post"From Basic to Advance usage".
 # 

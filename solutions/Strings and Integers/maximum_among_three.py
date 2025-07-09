@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run maximum-among-three
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run maximum-among-three
 
 # Given three integers, determine which one is the largest.
 # 

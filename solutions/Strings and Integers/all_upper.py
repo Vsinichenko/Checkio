@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run all-upper
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run all-upper
 
 # Check if a given string has all symbols in upper case. If the string is empty or doesn't have any letter in it - function should returnTrue.
 # 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run median
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run median
 
 # A median is a numerical value separating the upper half of asortedlistof numbers from the lower half. Inlistwhere there are an odd number of entities, the median is the number found in the middle of thelist. If thelistcontains an even number of entities, then there is no single middle value, instead the median becomes the average of the two numbers found in the middle. For this mission, you are given a non-emptylistof integers(int). With it, you must separate the upper half of the numbers from the lower half and find the median.
 # 

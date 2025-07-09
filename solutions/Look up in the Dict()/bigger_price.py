@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run bigger-price
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run bigger-price
 
 # You have a list with all available products in a store. The data is represented as a list of dicts
 # 
@@ -11,12 +11,16 @@
 # 
 # END_DESC
 
+import pandas as pd
+
+
 def bigger_price(limit: int, data: list[dict]) -> list[dict]:
-    """
-    TOP most expensive goods
-    """
+    df = pd.DataFrame(data)
+    df = df.sort_values(by="price", ascending=False)
+    df = df.iloc[:limit]
+    ret_data = df.to_dict(orient="records")
     # your code here
-    return []
+    return ret_data
 
 
 print("Example:")

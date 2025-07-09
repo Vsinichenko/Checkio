@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run zigzag-array
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run zigzag-array
 
 # Your function should create alistoflists, that represents a two-dimensional grid with the given number of rows and cols.
 # 

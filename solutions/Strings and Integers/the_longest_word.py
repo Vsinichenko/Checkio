@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run the-longest-word
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run the-longest-word
 
 # This function should take a string without punctuation marks as an input and return the longest word in the string. If there are multiple words of the same length, return the first one that appears.
 # 

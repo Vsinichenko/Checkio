@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run middle-characters
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run middle-characters
 
 # You are given some string where you need to find its middle character(s). The string may contain one word, a few symbols or a whole sentence. If the length of the string is even, then you should return two middle characters, but if the length is odd, return just one. For more details look at the Example.
 # 

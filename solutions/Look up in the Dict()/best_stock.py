@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run best-stock
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run best-stock
 
 # You are given the current stock prices. You have to find out which stocks cost more.
 # 

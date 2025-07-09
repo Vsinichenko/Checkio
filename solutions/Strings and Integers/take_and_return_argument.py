@@ -1,8 +1,8 @@
-#!/usr/bin/env checkio --domain=py run take-and-return-argument
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run take-and-return-argument
 
-# 1. Let's make our functionfuncmore usual. Let it take some argumentarg.
+# 1. Let's make our functionfuncfrom the previous mission more useful. Let it take an argumentarginside brackets. If you have any trouble, see the hints below the description.
 # 
-# 2. Return the argument value without any changes.
+# 2. Return the argument value without any changes using keywordreturn.
 # 
 # 
 # END_DESC

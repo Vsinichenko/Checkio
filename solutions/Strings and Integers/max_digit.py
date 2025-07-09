@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run max-digit
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run max-digit
 
 # You have a number and you need to determine which digit in this number is the biggest.
 # 

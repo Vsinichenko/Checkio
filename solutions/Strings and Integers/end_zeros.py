@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run end-zeros
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run end-zeros
 
 # Try to find out how many zeros a given number has at the end.
 # 

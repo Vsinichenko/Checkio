@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run words-order
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run words-order
 
 # You have a text and a sequence of words. You need to check if the words in sequence appear in the same order as in the given text.
 # 

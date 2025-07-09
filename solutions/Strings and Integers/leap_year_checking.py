@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run leap-year-checking
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run leap-year-checking
 
 # Check if the givenyearis leap year. A year is a leap year if it is divisible by 4, except for end-of-century years which must be divisible by 400. This means that the year 2000 was a leap year, although 1900 was not.
 # 

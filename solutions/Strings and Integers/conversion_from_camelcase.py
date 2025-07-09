@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run conversion-from-camelcase
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run conversion-from-camelcase
 
 # Your mission is to convert the name of a function from CamelCase ("MyFunctionName") into the Python format ("my_function_name") where all chars are in lowercase and all words are concatenated with an intervening underscore symbol "_".
 # 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run flatten-dict
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run flatten-dict
 
 # Nikola likes to categorize everything in sight.    One time Stephan gave him a label maker for his birthday,    and the robots were peeling labels off of every surface in the ship for weeks.    He has since categorized all the reagents in his laboratory,    books in the library and notes on the desk.    But then he learned about Pythondictionaries,    and categorized all the possible configurations for Sophia’s drones.    Now the files are organized in a deep nested structure,    but Sophia doesn’t like this. Let's help Sophia to flatten these dictionaries.
 # 

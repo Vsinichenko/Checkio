@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run sort-except-zero
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run sort-except-zero
 
 # Sort the integers in sequence in sequence. But the position of zeros should not be changed.
 # 

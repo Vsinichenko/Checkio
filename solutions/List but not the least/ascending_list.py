@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run ascending-list
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run ascending-list
 
 # Determine whether a sequence of elements is ascending such that each of its elements is strictly larger than (and not merely equal to) the preceding element. Empty sequence is considered as ascending.
 # 

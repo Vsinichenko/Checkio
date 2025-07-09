@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run count-divisibles-in-range-simplified
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run count-divisibles-in-range-simplified
 
 # Given two integers,nandk, the task is to count how many numbers between 1 andn(inclusive) are divisible byk.
 # 

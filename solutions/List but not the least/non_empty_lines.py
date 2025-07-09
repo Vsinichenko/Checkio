@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run non-empty-lines
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run non-empty-lines
 
 # You need to count how many non-empty lines a given text has.
 # 

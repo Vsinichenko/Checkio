@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run just-fizz
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run just-fizz
 
 # You should write a function that will receive a positive integer and return:"Fizz"if the number is divisible by 3 (3, 6, 9 ...) otherwise convert the given number to a string (2->"2").
 # 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run sum-numbers
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run sum-numbers
 
 # In a given text you need to sum the numbers while excluding any digits that form part of a word.
 # 

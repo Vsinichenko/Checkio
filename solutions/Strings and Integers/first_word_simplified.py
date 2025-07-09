@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run first-word-simplified
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run first-word-simplified
 
 # You are given a string and you have to find its first word.
 # 

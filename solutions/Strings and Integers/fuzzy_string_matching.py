@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run fuzzy-string-matching
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run fuzzy-string-matching
 
 # Given two strings and a permissible number of character differences, determine if the strings can be considered approximately equal.
 # 
@@ -20,7 +20,24 @@
 # END_DESC
 
 def fuzzy_string_match(str1: str, str2: str, threshold: int) -> bool:
-    # your code here
+    
+    if len(str2)>len(str1):
+        str1, str2 = str2, str1 
+
+    num_typos = 0
+
+    for i, _ in  enumerate(str1):
+        try: 
+            str2[i]
+        except IndexError:
+            num_typos+=1
+            continue
+        if str1[i]!=str2[i]:
+            num_typos+=1
+            
+    if num_typos<=threshold:
+        return True
+
     return False
 
 

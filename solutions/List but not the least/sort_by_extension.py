@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run sort-by-extension
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run sort-by-extension
 
 # You are given a sequence of files as strings. You need to sort this the sequence by the file extension. The files with the same extension (or without one) should be sorted by name.
 # 

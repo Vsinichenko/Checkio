@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run digits-multiplication
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run digits-multiplication
 
 # You are given a positive number.    Your function should calculate the product of the digits excluding any zeroes.
 # 

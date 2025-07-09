@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run goes-right-after-simplified
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run goes-right-after-simplified
 
 # In a given string you need to check if one symbol goes right after another. If so - returnTrue, otherwise -False.
 # 

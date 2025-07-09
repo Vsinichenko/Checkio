@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run remove-all-after
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run remove-all-after
 
 # Not all of the elements are important. What you need to do here is to remove all of the elements after the given one from sequence.
 # 

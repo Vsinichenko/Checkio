@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run longest-substring-of-unique-characters
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run longest-substring-of-unique-characters
 
 # Given a string, find the length of the longest substring without repeating characters.
 # 

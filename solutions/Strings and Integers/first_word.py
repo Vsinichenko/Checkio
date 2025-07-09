@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run first-word
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run first-word
 
 # You might see a simplified version of this mission alreadyFirst Word (simplified). This mission is a little bit more complex as not only English letters can be in the given string.
 # 

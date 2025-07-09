@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run golden-pyramid
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run golden-pyramid
 
 # Our Robo-Trio need to train for future journeys and treasure hunts.    Stephan has built a special flat model of a pyramid. Now the robots can train for speed gold running.    They start at the top of the pyramid and must collect gold in each room,    choose to take the left or right path and continue down to the next level.    To optimize their gold runs, Stephan need to know the maximum amount of gold that can be collected in one run.
 # 

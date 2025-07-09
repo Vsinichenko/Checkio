@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run compress-list
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run compress-list
 
 # A given sequence should be "compressed" in a way so, instead of two (or more) equal elements, staying one after another, there should be only one in the result sequence.
 # 

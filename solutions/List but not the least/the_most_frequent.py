@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run the-most-frequent
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run the-most-frequent
 
 # You have a sequence of strings, and you’d like to determine the most frequently occurring string in the sequence. It can be the only one.
 # 

@@ -1,4 +1,4 @@
-#!/usr/bin/env checkio --domain=py run fizz-buzz
+#!/home/valentyna-sinichenko/miniconda3/envs/checkio/bin/checkio --domain=py run fizz-buzz
 
 # "Fizz buzz" is a word game we will use to teach the robots about division. Let's learn computers.
 # 
