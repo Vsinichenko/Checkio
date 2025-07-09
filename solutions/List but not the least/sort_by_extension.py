@@ -13,13 +13,36 @@
 # 
 # END_DESC
 
+def ext_plus_name(s:str):
+    
+    if "." not in s:
+        name = s
+        ext = " "
+
+    ext = s.split(".")[-1]
+    name = ".".join(s.split(".")[:-1])
+
+
+    if "."+ ext == s: # file has no extension
+        ext=" "
+        name=s
+
+    if s.endswith("."): # file has no extension
+        name = s
+        ext=" "
+
+    return ext+name
+
+
+print(ext_plus_name(".bat"))
+
+
 def sort_by_ext(files: list[str]) -> list[str]:
     # your code here
-    return []
+    files.sort(key=ext_plus_name)
+    return files
 
 
-print("Example:")
-print(sort_by_ext(["1.cad", "1.bat", "1.aa"]))
 
 # These "asserts" are used for self-checking
 assert sort_by_ext(["1.cad", "1.bat", "1.aa"]) == ["1.aa", "1.bat", "1.cad"]
@@ -29,6 +52,8 @@ assert sort_by_ext(["1.cad", "1.bat", "1.aa", "2.bat"]) == [
     "2.bat",
     "1.cad",
 ]
+print(sort_by_ext(["1.cad", "1.bat", "1.aa", ".bat"]))
+
 assert sort_by_ext(["1.cad", "1.bat", "1.aa", ".bat"]) == [
     ".bat",
     "1.aa",
@@ -54,5 +79,19 @@ assert sort_by_ext(["1.cad", "1.bat", "1.aa", ".aa.doc"]) == [
     "1.cad",
     ".aa.doc",
 ]
+
+print("Tricky example:")
+#print(sort_by_ext(["1.cad", "1.bat", "1.aa"]))
+
+tricky_case=['.config', 'my.doc', '1.exe', '345.bin', 'green.bat', 'format.c', 'no.name.', 'best.test.exe']
+
+for el in tricky_case:
+    print(el)
+    print(ext_plus_name(el))
+    print()
+
+print(sort_by_ext(tricky_case))
+assert sort_by_ext(tricky_case) == ['.config', 'no.name.', 'green.bat', '345.bin', 'format.c', 'my.doc', '1.exe', 'best.test.exe']
+
 
 print("The mission is done! Click 'Check Solution' to earn rewards!")
