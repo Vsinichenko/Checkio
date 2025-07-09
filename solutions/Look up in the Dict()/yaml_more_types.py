@@ -57,6 +57,14 @@
 
 # Taken from mission YAML. Simple Dict
 
+
+import ast 
+
+def is_bool(s) -> bool:
+    return s.lower() in ["true", "false"]
+
+
+
 def yaml(a: str) -> dict:
     elements = a.split("\n")
     yaml_parsed = {}
@@ -65,21 +73,22 @@ def yaml(a: str) -> dict:
             k, v = el.split(":")
             k = k.strip()
             v=v.strip()
-            try:
+
+            if v.startswith('"') and v.endswith('"'):
+                v = ast.literal_eval(v)
+
+            elif v.isdigit():
                 v = int(v)
-            except ValueError:
-                pass
+            elif v in ("", "null"):
+                v=None
+            elif v =="true":
+                v=True
+            elif v=="false":
+                v=False
+
             yaml_parsed[k]=v
     return yaml_parsed
-    yaml(
-        """name: Alex
-age: 12"""
-    )
-)
-    "age": 12,
-    "name": "Alex Fox",
-    "class": "12b",
-}
+    
 
 
 print("Example:")
